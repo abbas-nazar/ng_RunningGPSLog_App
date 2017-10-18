@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 import { IActivity } from './shared/activity.model';
 import { saved_ACTIVITIES } from './shared/activities';
-import {first} from "rxjs/operator/first";
+import {first} from 'rxjs/operator/first';
 
 @Injectable()
 export class ActivityService {
