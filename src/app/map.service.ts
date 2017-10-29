@@ -28,7 +28,7 @@ export class MapService {
       "opacity": 0.95
     };
 
-    var map = L.map('map').setView(defaultCoords, defaultZoom);
+    var map = L.map('map').setView(defaultCoords, defautZoom);
 
     map.maxZoom = 100;
 
