@@ -34,7 +34,7 @@ const appRoutes: Routes =
     BrowserModule,
     RouterModule.forRoot(appRoutes),
   ],
-  providers: [ActivityService,MapService],
+  providers: [ActivityService, MapService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
